@@ -1,0 +1,39 @@
+{
+  "name": "dopecode.github.io",
+  "version": "1.0.0",
+  "description": "dopecode description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taka1995/dopecode.github.io.git"
+  },
+  "keywords": [
+    "dopecode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taka1995/dopecode.github.io/issues"
+  },
+  "homepage": "https://github.com/taka1995/dopecode.github.io#readme",
+
+ "dependencies": {
+     "cool-ascii-faces": "^1.3.4",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.0.0",
+    "mocha": "^6.2.2",
+   "pg": "^7.12.1"
+ },
+
+ "engines": {
+   "ejs": "2.5.5"
+ }
+  
+}
