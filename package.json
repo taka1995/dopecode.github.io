@@ -20,7 +20,7 @@
     "url": "https://github.com/taka1995/dopecode.github.io/issues"
   },
   "homepage": "https://github.com/taka1995/dopecode.github.io#readme",
-  
+
  "dependencies": {
      "cool-ascii-faces": "^1.3.4",
     "chai": "^3.5.0",
@@ -30,6 +30,9 @@
     "express": "^4.0.0",
     "mocha": "^6.2.2",
    "pg": "^7.12.1"
-  },
-  
- 
+ },
+
+ "engines": {
+   "ejs": "2.5.5"
+ }
+
