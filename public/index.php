@@ -4,7 +4,8 @@
 <?php
 
   // PostgreSQL 接続をオープンする
-  $dbconn = pg_connect("port=5432 user=bqdhlbwcsjgonq password=b8465044fc303f8a7c8ce93bf0098307705354a25653f10fa105e6f6292fab0f dbname=dcvn917vl095i4");
+  $dbconn = pg_connect("port=5432 user=uycydaxapjtpqc password=c57ee137fc8bff8965bae9d035872dd33607a849a8345c23c92e3eb286a7b943
+ dbname=dfjra63p39v988");
   // SQL文の作成
   $sql = "SELECT product_no, product_name, price FROM products WHERE product_name = $1";
   // SQLとパラメータを分割して実行
