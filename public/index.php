@@ -33,10 +33,7 @@
 </form>
      
 <?php
-$con = pg_connect("dbname=dfjra63p39v988
- user=uycydaxapjtpqc
-password=c57ee137fc8bff8965bae9d035872dd33607a849a8345c23c92e3eb286a7b943
-");
+$con = pg_connect("dbname=dfjra63p39v988 user=uycydaxapjtpqc password=c57ee137fc8bff8965bae9d035872dd33607a849a8345c23c92e3eb286a7b943 ");
 
 $contents = $_POST['contents'];
 if ($contents) {
