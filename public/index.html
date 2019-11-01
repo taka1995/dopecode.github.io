@@ -32,7 +32,24 @@
   Mail: <input type="text" name="mail"><br>
   <input type="submit" value="Submit">
 </form>
+     
+<?php
+$con = pg_connect("dbname=dfjra63p39v988
+ user=uycydaxapjtpqc
+password=c57ee137fc8bff8965bae9d035872dd33607a849a8345c23c92e3eb286a7b943
+");
 
+$contents = $_POST['contents'];
+if ($contents) {
+  $contents = pg_escape_string(htmlspecialchars($contents));
+  pg_query($con, "insert into pgbbs1 values('$contents')");
+}
+$rs = pg_query($con, "select contents from pgbbs1");
+while ($row = pg_fetch_array($rs)) {
+  print $row['contents'] . "<br>\n";
+}
+pg_close($con);
+?>
 
 </div>
     </div>
