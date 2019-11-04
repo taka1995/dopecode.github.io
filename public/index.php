@@ -25,7 +25,7 @@
       <h1>Asia Pacific University</h1>
       <p>WELCOME TO APU WORLD</p>
       
- <form action="https://taka1995.github.io/dopecode.github.io/public/index.php" method="get">
+ <form action="https://taka1995.github.io/dopecode.github.io/public/index.php" method="post">
   First name: <input type="text" name="fname"><br>
   Last name: <input type="text" name="lname"><br>
   Mail: <input type="text" name="mail"><br>
