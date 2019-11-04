@@ -38,9 +38,9 @@ $con = pg_connect("dbname=dfjra63p39v988 user=uycydaxapjtpqc password=c57ee137fc
 $contents = $_POST['contents'];
 if ($contents) {
   $contents = pg_escape_string(htmlspecialchars($contents));
-  pg_query($con, "insert into salesforce values('$contents')");
+  pg_query($con, "insert into lead values('$contents')");
 }
-$rs = pg_query($con, "select contents from salesforce");
+$rs = pg_query($con, "select contents from lead");
 while ($row = pg_fetch_array($rs)) {
   print $row['contents'] . "<br>\n";
 }
